@@ -1,4 +1,16 @@
-# Python exponential calculation
+# By Using Varaibles in python how to do this Following code snippet will help you to understand this.
+
+# Create a variable savings
+savings = 100
+
+# Create a variable factor
+factor = 1.10
+
+# Calculate result
+result = saings ** factor 
+
+# Print out result
+print(result)# Python exponential calculation
 # For example you invested $100 with 10% returns every year. How much you will get after 7 years with the same rate of returns
 # how to do this in python
 print(100 * 1.1**7) 
