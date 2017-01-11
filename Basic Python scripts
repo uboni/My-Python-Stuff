@@ -8,7 +8,7 @@
 savings = 100
 
 # Create a variable factor
-factor = 1.10
+"factor = 1.10
 
 # Calculate result
 result = savings * factor**7
@@ -18,7 +18,7 @@ print(result)
 # output would be 194.871
 
 
-# Create a variable desc
+"# Create a variable desc
 desc = "compound interest"
 # Here desc is of str data type. In python you can either put strings in double quotrs or single quotes
 # Create a variable profitable
@@ -66,3 +66,26 @@ pi_string = "3.1415926"
 
 # Convert pi_string into float: pi_float
 pi_float = float(pi_string)
+
+============= Python Lists=========================
+
+Python Lists an be represented as [a, b, c]
+,ex:
+V=[a, b, c,]
+
+print(V)
+
+Important difference between Other language List and Python List is 
+
+Python List can hold different data type values
+ex: FM=[1.62, 100, "aBC"]
+
+ABC = [23.3, "FREMONT", 34, "SFO"]
+print(ABC)
+
+List of Lists:
+fm = [["Liz", 1.73],
+      ["EMMA", 1.68],
+      ["ABC", 2.34]]
+In other words list is a compound data type which can holds different data types 
+
