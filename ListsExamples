@@ -24,3 +24,36 @@ house = [[hallway, hall],
 print(house)
 print(type(house))
 ###############################DEMO1##############################################
+
+#### Accessing the index values from the list in Python 
+We can access the list of values using following syntax
+
+a = ['Uday', 1.73, 'Vishali', 1.70, 'Akshitha', 1.45, 'Madhu', 1.69]
+         0    1      2           3   4            5      6       7 
+print(a[3])--> Will display 1.70
+print(a[7]) --> displays 1.69
+
+Range of Values in list:
+If you want to display range of values from the python list use this statement:
+
+print(a[1:3])
+
+a[start:End]--> displays all values from start to end. Start is inclusive and end is exclusive
+
+ex: print(a[0:3])--> displays Uday, 1.73, Vishali
+
+
+##################################################DEMO2##########################
+
+# Create the areas list
+areas = ["hallway", 11.25, "kitchen", 18.0, "living room", 20.0, "bedroom", 10.75, "bathroom", 9.50]
+
+# Alternative slicing to create downstairs
+downstairs = areas[:6] 
+
+# Alternative slicing to create upstairs
+upstairs = areas[6:]
+
+print(downstairs)
+print(upstairs)
+####################################DEMO3#########################3333
