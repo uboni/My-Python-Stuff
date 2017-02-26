@@ -1,0 +1,7 @@
+########### How userdefined functions should be called #################
+
+print('Functions defination')
+def currency_conversion(rate,euros):
+    dollars =rate*euros
+    return dollars
+print(currency_conversion(60,100))
